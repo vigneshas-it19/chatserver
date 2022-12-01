@@ -1,0 +1,32 @@
+.me{
+    position: relative;
+    float: right;
+    margin: 10px;
+    padding: 7px;
+    max-width: 60%;
+    background-color: #21896b;
+    color: white;
+    width: fit-content;
+    clear: both;
+    display: block;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-top-left-radius:2vh ;
+}
+
+
+.others{
+    position: relative;
+    float: left;
+    margin: 10px;
+    padding: 7px;
+    max-width: 60%;
+    border:2px solid #21896b;
+    color: #21896b;
+    width: fit-content;
+    clear: both;
+    display: block;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-top-right-radius:2vh ;
+}

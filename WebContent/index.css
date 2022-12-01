@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+#head{
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #21896b;
+    border:2px solid #21896b;
+    height: 10%;
+}
+
+#username{
+    position: absolute;
+    right: 5%;
+    width: 20%;
+    height: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    border-radius: 5vh;
+    padding-left: 20px;
+}
+
+#messages{
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left:50%;
+    transform: translateX(-50%);
+    border:2px solid #21896b;
+    height: 80%;
+    display: block;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#foot{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #21896b;
+    border:2px solid #21896b;
+    height: 10%;
+}
+
+#message_inp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 50%;
+    
+    transform: translate(-50%,-50%);
+    border: none;
+    outline: none;
+    border-radius: 5vh;
+    padding-left: 20px;
+}
